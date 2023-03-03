@@ -6,18 +6,7 @@ class classifier {
   }
   
   async classify() {
-    //this function is used to sort the information rendered through the front end
-    /*
-    const token= 10
-    let validaty= false //we want to use this in order to validata a response maybe we can use it later for something
-    while (!validaty && token>1){
-      token-1;
-      validaty= true
-      if( validaty){
-        console.log("in order");
-        console.log(this.input);
-        console.log("trying to fetch");
-        */
+   
         try{
 
           //here we ara going to try and get the ip before we fetch the weather
